@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="uk" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Монтаж та підключення куплених інверторів у Києві | Переборка щитка, байпас</title>
+    <meta name="description" content="Суто монтаж вашого обладнання: Deye, Victron, Must, Growatt, LiFePO4. Правий берег Києва. Переборка електрощитка, встановлення перемикача мережа-інвертор, опресування пресом.">
+
+    <!-- FONTS: Space Grotesk (акценти/заголовки) + Inter (текст) + JetBrains Mono (технічні дані) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600;700&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+
+    <!-- TAILWIND CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        dark: {
+                            900: '#0B0D12',
+                            800: '#121620',
+                            700: '#1A202E',
+                            border: '#262F42',
+                            hover: '#313C54'
+                        },
+                        amber: {
+                            industrial: '#FF9900', // Технічний промисловий помаранчевий
+                        },
+                        tg: '#229ED9',
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        display: ['Space Grotesk', 'sans-serif'],
+                        mono: ['JetBrains Mono', 'monospace'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- ALPINE.JS -->
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+</head>
+<body class="bg-dark-900 text-slate-200 font-sans antialiased selection:bg-amber-industrial selection:text-black">
+
+    <!-- TOP BAR: СУТЬ БЕЗ МАРКЕТИНГУ -->
+    <div class="bg-dark-800 border-b border-dark-border py-2 px-4 text-xs font-mono">
+        <div class="max-w-6xl mx-auto flex items-center justify-between">
+            <div class="flex items-center gap-2 text-slate-400">
+                <span class="inline-block w-2 h-2 rounded-full bg-amber-industrial"></span>
+                <span>МИ НЕ ПРОДАЄМО ОБЛАДНАННЯ. ТІЛЬКИ МОНТАЖ ТА ПЕРЕБОРКА ЩИТКА.</span>
+            </div>
+            <div class="hidden sm:flex items-center gap-4 text-slate-400">
+                <span>Київ: Правий берег</span>
+                <span class="text-slate-600">/</span>
+                <span>Виїзд з власним інструментом</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- HEADER -->
+    <header class="border-b border-dark-border bg-dark-900/90 sticky top-0 z-40 backdrop-blur-md">
+        <div class="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
+            <div class="flex items-center gap-3">
+                <div class="w-8 h-8 rounded bg-amber-industrial text-black flex items-center justify-center font-mono font-bold text-base">
+                    ⚡
+                </div>
+                <span class="font-display font-bold text-lg text-white tracking-tight uppercase">
+                    Майстерня Монтажу
+                </span>
+            </div>
+
+            <a href="https://t.me/your_telegram_bot" target="_blank" rel="noopener" 
+               class="flex items-center gap-2 px-4 py-2 bg-dark-700 hover:bg-dark-hover border border-dark-border text-white rounded font-mono text-xs font-semibold uppercase tracking-wider transition-all">
+                <i class="fa-brands fa-telegram text-tg text-sm"></i>
+                <span>Надіслати фото щитка</span>
+            </a>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="py-12 sm:py-20 border-b border-dark-border bg-gradient-to-b from-dark-900 to-dark-800">
+        <div class="max-w-6xl mx-auto px-4">
+            
+            <div class="max-w-3xl">
+                <!-- Status tag -->
+                <div class="inline-flex items-center gap-2 px-3 py-1 bg-dark-700 border border-dark-border rounded text-xs font-mono text-amber-industrial uppercase mb-6">
+                    <i class="fa-solid fa-screwdriver-wrench"></i>
+                    Послуга підключення вашого обладнання
+                </div>
+
+                <h1 class="font-display text-3xl sm:text-5xl lg:text-6xl font-bold text-white uppercase tracking-tight leading-[1.08] mb-6">
+                    Купили інвертор та акумулятор? <br class="hidden sm:block">
+                    <span class="text-slate-400">Ми приїдемо і підключимо його до вашого щитка.</span>
+                </h1>
+
+                <p class="text-slate-300 text-base sm:text-lg font-sans leading-relaxed mb-8 max-w-2xl">
+                    Ніяких подовжувачів по підлозі та розеток «вилка-вилка». 
+                    Встановлюємо 3-позиційний ручний байпас <strong>(Мережа — 0 — Інвертор)</strong>, 
+                    обтискаємо силові дроти гідравлічним пресом та захищаємо техніку від зустрічної напруги.
+                </p>
+
+                <!-- Action CTA -->
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <a href="https://t.me/your_telegram_bot" target="_blank" rel="noopener"
+                       class="px-6 py-4 bg-amber-industrial hover:bg-amber-500 text-black font-display font-bold text-base uppercase tracking-wider rounded flex items-center justify-center gap-3 transition-colors shadow-lg shadow-amber-industrial/10">
+                        <i class="fa-brands fa-telegram text-xl"></i>
+                        <span>Скинути фото щитка й інвертора в ТГ</span>
+                    </a>
+                    
+                    <a href="#workflow" class="px-6 py-4 bg-dark-700 hover:bg-dark-hover border border-dark-border text-white font-mono text-xs uppercase tracking-wider rounded flex items-center justify-center gap-2 transition-colors">
+                        <span>Як ми працюємо</span>
+                        <i class="fa-solid fa-arrow-down text-slate-400"></i>
+                    </a>
+                </div>
+
+                <div class="mt-4 text-xs font-mono text-slate-500">
+                    *Скидаєте 2 фото (щиток і коробка/модель інвертора) → пишемо точну ціну монтажу за 15 хвилин.
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SPLIT: WHO BRINGS WHAT (ЧІТКИЙ РОЗПОДІЛ) -->
+    <section class="py-14 border-b border-dark-border max-w-6xl mx-auto px-4">
+        
+        <div class="mb-10">
+            <h2 class="font-display text-2xl sm:text-3xl font-bold uppercase text-white mb-2">
+                Як розділяються завдання
+            </h2>
+            <p class="text-slate-400 text-sm">Вам не потрібно бігати будівельними магазинами за дрібницями.</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            
+            <!-- What Client Provides -->
+            <div class="bg-dark-800 border border-dark-border p-6 rounded-lg">
+                <div class="flex items-center gap-3 mb-4 text-slate-400 font-mono text-xs uppercase tracking-widest">
+                    <span class="w-2.5 h-2.5 bg-slate-500 rounded-sm"></span>
+                    <span>1. Надаєте ви (ваше обладнання):</span>
+                </div>
+                <ul class="space-y-3 font-sans text-sm text-slate-200">
+                    <li class="flex items-start gap-3">
+                        <i class="fa-solid fa-check text-slate-500 mt-1"></i>
+                        <span><strong>Інвертор:</strong> Deye, Victron Energy, Growatt, Must, SRNE, PowMr, Luxpower, Axioma тощо.</span>
+                    </li>
+                    <li class="flex items-start gap-3">
+                        <i class="fa-solid fa-check text-slate-500 mt-1"></i>
+                        <span><strong>Акумуляторний блок:</strong> Заводські блоки (Pylontech, Dyness, Deye) або зібрані LiFePO4 збірки з BMS.</span>
+                    </li>
+                    <li class="flex items-start gap-3">
+                        <i class="fa-solid fa-check text-slate-500 mt-1"></i>
+                        <span><strong>Місце для монтажу:</strong> Стіна в коридорі, гардеробі, коморі чи балконі (поруч зі щитком або з можливістю дотягнути кабель).</span>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- What We Bring -->
+            <div class="bg-dark-800 border-2 border-amber-industrial/40 p-6 rounded-lg relative">
+                <div class="absolute -top-3 right-4 px-2 py-0.5 bg-amber-industrial text-black font-mono text-[10px] font-bold uppercase rounded">
+                    Все з собою в авто
+                </div>
+                <div class="flex items-center gap-3 mb-4 text-amber-industrial font-mono text-xs uppercase tracking-widest">
+                    <span class="w-2.5 h-2.5 bg-amber-industrial rounded-sm"></span>
+                    <span>2. Привозимо ми (наші матеріали):</span>
+                </div>
+                <ul class="space-y-3 font-sans text-sm text-slate-200">
+                    <li class="flex items-start gap-3">
+                        <i class="fa-solid fa-wrench text-amber-industrial mt-1"></i>
+                        <span><strong>Перемикач введення резерву (байпас):</strong> 3-позиційний Hager / IETA / ETI (1-0-2), щоб у разі обслуговування інвертора квартира не сиділа без струму.</span>
+                    </li>
+                    <li class="flex items-start gap-3">
+                        <i class="fa-solid fa-wrench text-amber-industrial mt-1"></i>
+                        <span><strong>Силові кабелі та наконечники:</strong> Гнучка чиста мідь потрібного перетину (25–50 мм²), наконечники ТМЛ, термоусадка.</span>
+                    </li>
+                    <li class="flex items-start gap-3">
+                        <i class="fa-solid fa-wrench text-amber-industrial mt-1"></i>
+                        <span><strong>Спецінструмент:</strong> Гідравлічний прес (ніяких плоскогубців!), динамометричні викрутки для правильної затяжки клем, перфоратори з пилососом.</span>
+                    </li>
+                    <li class="flex items-start gap-3">
+                        <i class="fa-solid fa-wrench text-amber-industrial mt-1"></i>
+                        <span><strong>DC-захист:</strong> Запобіжники Mega Fuse або тримачі з плавкими вставками під постійний струм.</span>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- TECHNICAL REGULATION / WHY WE RE-WIRE THE PANEL -->
+    <section class="py-14 border-b border-dark-border bg-dark-800">
+        <div class="max-w-6xl mx-auto px-4">
+            
+            <div class="max-w-2xl mb-10">
+                <div class="font-mono text-xs text-amber-industrial uppercase tracking-widest mb-1">Безпека та норми</div>
+                <h2 class="font-display text-2xl sm:text-3xl font-bold uppercase text-white">
+                    Чому не можна просто «встромити дріт у розетку»
+                </h2>
+                <p class="text-slate-400 text-sm mt-2">
+                    Підключення інвертора вимагає коректної зміни схеми щитка. Ось що ми робимо:
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+                
+                <div class="bg-dark-900 border border-dark-border p-5 rounded">
+                    <div class="font-mono text-amber-industrial text-sm font-bold mb-2">01 / ВИДІЛЕННЯ ЛІНІЙ</div>
+                    <h3 class="font-display text-base font-bold text-white mb-2 uppercase">Резервні та нерезервні групи</h3>
+                    <p class="text-xs text-slate-300 leading-relaxed">
+                        Світло, холодильник, роутер, котел і робочі розетки переводимо на інвертор. Потужні прилади (варильна поверхня, бойлер, тепла підлога) залишаємо тільки на міській мережі, щоб не розряджати акумулятор за 20 хвилин.
+                    </p>
+                </div>
+
+                <div class="bg-dark-900 border border-dark-border p-5 rounded">
+                    <div class="font-mono text-amber-industrial text-sm font-bold mb-2">02 / ЗАХИСТ ВІД ЗУСТРІЧНОГО СТРУМУ</div>
+                    <h3 class="font-display text-base font-bold text-white mb-2 uppercase">Монтаж перемикача I-0-II</h3>
+                    <p class="text-xs text-slate-300 leading-relaxed">
+                        Фізичний розрив фази та нуля через перекидний рубильник. Навіть при помилках автоматики міська напруга гарантовано ніколи не зустрінеться з напругою інвертора (що зазвичай спалює плату).
+                    </p>
+                </div>
+
+                <div class="bg-dark-900 border border-dark-border p-5 rounded">
+                    <div class="font-mono text-amber-industrial text-sm font-bold mb-2">03 / ГІДРАВЛІЧНЕ ОПРЕСУВАННЯ</div>
+                    <h3 class="font-display text-base font-bold text-white mb-2 uppercase">Силові клеми акумулятора</h3>
+                    <p class="text-xs text-slate-300 leading-relaxed">
+                        Струми від 48V акумулятора сягають 100-150 Ампер. Ми опресовуємо наконечники гідропресом під тиском 6-8 тонн. Це виключає нагрів, іскріння та ризик оплавлення контактів.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- INTERACTIVE ESTIMATE WIDGET (ALPINE.JS) -->
+    <section id="workflow" class="py-14 border-b border-dark-border max-w-6xl mx-auto px-4"
+             x-data="{
+                 task: 'panel_inverter',
+                 cableDistance: 'under3m',
+                 getEstimate() {
+                     let hours = '4–5 годин';
+                     let note = 'Монтаж інвертора + переборка щитка + встановлення байпасу + налаштування BMS';
+                     if (this.cableDistance === 'over5m') {
+                         hours = '5–7 годин';
+                         note += ' + прокладка силової траси в кабель-каналі';
+                     }
+                     return { hours, note };
+                 },
+                 getTgLink() {
+                     const text = encodeURIComponent(`Вітаю! Мені потрібен монтаж мого інвертора.\nВідстань до щитка: ${this.cableDistance === 'under3m' ? 'до 3 метрів' : 'більше 5 метрів'}.\nСкидаю фото щитка та інвертора.`);
+                     return `https://t.me/your_telegram_bot?text=${text}`;
+                 }
+             }">
+        
+        <div class="bg-dark-800 border border-dark-border p-6 sm:p-10 rounded-xl">
+            
+            <div class="max-w-2xl mb-8">
+                <span class="font-mono text-xs text-amber-industrial uppercase tracking-widest">Розрахунок часу робіт</span>
+                <h2 class="font-display text-2xl sm:text-3xl font-bold uppercase text-white mt-1">
+                    Скільки триває стандартний монтаж?
+                </h2>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+                
+                <div class="lg:col-span-7 space-y-6">
+                    <div>
+                        <label class="block font-mono text-xs text-slate-400 uppercase tracking-wider mb-2">
+                            Де планується інвертор відносно електрощитка?
+                        </label>
+                        <div class="grid grid-cols-2 gap-3">
+                            <button @click="cableDistance = 'under3m'" 
+                                    :class="cableDistance === 'under3m' ? 'border-amber-industrial bg-dark-700 text-white font-bold' : 'border-dark-border bg-dark-900 text-slate-400'"
+                                    class="p-4 border rounded text-left font-mono text-xs uppercase transition-all">
+                                📍 Поруч (до 3 метрів)
+                                <span class="block text-[10px] text-slate-500 font-normal mt-1">Оптимально, мінімальна довжина кабелю</span>
+                            </button>
+
+                            <button @click="cableDistance = 'over5m'" 
+                                    :class="cableDistance === 'over5m' ? 'border-amber-industrial bg-dark-700 text-white font-bold' : 'border-dark-border bg-dark-900 text-slate-400'"
+                                    class="p-4 border rounded text-left font-mono text-xs uppercase transition-all">
+                                📍 Дистанційно (5-10+ метрів)
+                                <span class="block text-[10px] text-slate-500 font-normal mt-1">Балкон / гардероб / комора</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="p-4 bg-dark-900 border border-dark-border rounded text-xs font-mono text-slate-400">
+                        ⚡ <strong>Важливо:</strong> Ми приїжджаємо зі своїми дюбелями, анкерами, кабель-каналами, наконечниками та дротами. Вам не потрібно нічого заміряти чи купувати заздалегідь.
+                    </div>
+                </div>
+
+                <!-- Live Result box -->
+                <div class="lg:col-span-5 bg-dark-900 p-6 border border-dark-border rounded-lg">
+                    <div class="font-mono text-xs text-slate-400 uppercase mb-1">Орієнтовний час робіт:</div>
+                    <div class="font-display text-3xl font-bold text-white mb-3" x-text="getEstimate().hours"></div>
+                    
+                    <div class="text-xs text-slate-300 font-sans border-t border-dark-border pt-3 mb-6" x-text="getEstimate().note"></div>
+
+                    <a :href="getTgLink()" target="_blank" rel="noopener"
+                       class="w-full py-4 bg-tg hover:bg-sky-600 text-white font-display text-sm font-bold uppercase tracking-wider rounded flex items-center justify-center gap-2.5 transition-colors">
+                        <i class="fa-brands fa-telegram text-lg"></i>
+                        <span>Надіслати фото для підтвердження</span>
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- DISTRICTS: RIGHT BANK ONLY -->
+    <section class="py-12 border-b border-dark-border max-w-6xl mx-auto px-4">
+        <div class="flex flex-col md:flex-row md:items-center justify-between gap-6">
+            <div>
+                <h3 class="font-display text-lg font-bold uppercase text-white">
+                    Локація виїздів: Правий берег Києва
+                </h3>
+                <p class="text-xs text-slate-400 font-sans mt-1">
+                    Виїжджаємо щодня по всьому правому берегу. Якщо об'єкт у приватному секторі поруч (Софіївська Борщагівка, Чайки, Вишневе) — уточнюйте в ТГ.
+                </p>
+            </div>
+
+            <div class="flex flex-wrap gap-2 text-xs font-mono">
+                <span class="px-3 py-1.5 bg-dark-800 border border-dark-border text-slate-300 rounded">Печерськ</span>
+                <span class="px-3 py-1.5 bg-dark-800 border border-dark-border text-slate-300 rounded">Голосієво</span>
+                <span class="px-3 py-1.5 bg-dark-800 border border-dark-border text-slate-300 rounded">Солом'янка</span>
+                <span class="px-3 py-1.5 bg-dark-800 border border-dark-border text-slate-300 rounded">Поділ</span>
+                <span class="px-3 py-1.5 bg-dark-800 border border-dark-border text-slate-300 rounded">Шевченківський</span>
+                <span class="px-3 py-1.5 bg-dark-800 border border-dark-border text-slate-300 rounded">Святошин</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- FINAL CTA / INSTRUCTIONS -->
+    <section class="py-16 sm:py-24 max-w-4xl mx-auto px-4 text-center">
+        
+        <div class="w-12 h-12 bg-dark-800 border border-dark-border rounded-full flex items-center justify-center mx-auto mb-6 text-amber-industrial text-xl">
+            <i class="fa-solid fa-camera"></i>
+        </div>
+
+        <h2 class="font-display text-2xl sm:text-4xl font-bold uppercase text-white mb-4">
+            Як дізнатися точну вартість робіт?
+        </h2>
+        
+        <p class="text-slate-300 text-sm sm:text-base font-sans max-w-xl mx-auto mb-8 leading-relaxed">
+            Зробіть 2 простих фото на телефон: <br>
+            <strong>1. Електрощиток</strong> (бажано без кришки, щоб бачити автомати). <br>
+            <strong>2. Шильдик інвертора</strong> (або скріншот моделі, яку замовили).
+        </p>
+
+        <a href="https://t.me/your_telegram_bot" target="_blank" rel="noopener"
+           class="inline-flex items-center justify-center gap-3 px-8 py-5 bg-amber-industrial hover:bg-amber-500 text-black font-display text-base uppercase font-bold tracking-wider rounded transition-all shadow-xl shadow-amber-industrial/10">
+            <i class="fa-brands fa-telegram text-2xl"></i>
+            <span>Надіслати фото в Telegram майстру</span>
+        </a>
+
+        <div class="mt-4 font-mono text-xs text-slate-500">
+            Відповідаємо безпосередньо ми (інженери), без диспетчерів та кол-центрів.
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="border-t border-dark-border bg-dark-900 py-8 text-xs font-mono text-slate-600">
+        <div class="max-w-6xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-4 text-center sm:text-left">
+            <div>© Електромонтажні роботи по підключенню резервного живлення. Київ.</div>
+            <div>Без продажу обладнання. Тільки кваліфікований монтаж.</div>
+        </div>
+    </footer>
+
+    <!-- MOBILE STICKY CTA BUTTON (HIDDEN ON DESKTOP) -->
+    <div class="fixed bottom-0 left-0 right-0 z-50 p-3 bg-dark-900/95 border-t border-dark-border backdrop-blur-lg sm:hidden">
+        <a href="https://t.me/your_telegram_bot" target="_blank" rel="noopener"
+           class="w-full py-3.5 bg-amber-industrial active:bg-amber-500 text-black font-display text-sm font-bold uppercase tracking-wider rounded flex items-center justify-center gap-2 shadow-lg">
+            <i class="fa-brands fa-telegram text-lg"></i>
+            <span>Скинути фото щитка • Telegram</span>
+        </a>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="uk" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Акуратний монтаж куплених інверторів у квартирах Києва | Робота з пилососом, переборка щитка</title>
+    <meta name="description" content="Підключення вашого інвертора та LiFePO4 акумулятора до електрощитка без бруду та пошкодження ремонту. Працюємо на Правому березі Києва. Відгуки мешканців ЖК.">
+
+    <!-- GOOGLE FONTS: Plus Jakarta Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- TAILWIND CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            50: '#F0F7FF',
+                            100: '#E0EFFF',
+                            500: '#0284C7',
+                            600: '#0369A1',
+                            700: '#075985',
+                            900: '#0C4A6E',
+                        },
+                        slate: {
+                            850: '#151F32',
+                        },
+                        tg: '#229ED9',
+                        tgHover: '#1B87BA'
+                    },
+                    fontFamily: {
+                        sans: ['Plus Jakarta Sans', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- ALPINE.JS -->
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+</head>
+<body class="bg-[#F8FAFC] text-slate-800 font-sans antialiased selection:bg-brand-500 selection:text-white">
+
+    <!-- 0. TOP NOTIFICATION BAR -->
+    <div class="bg-white border-b border-slate-200 py-2.5 px-4 text-xs font-medium text-slate-600">
+        <div class="max-w-6xl mx-auto flex items-center justify-between">
+            <div class="flex items-center gap-2">
+                <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+                <span>Тільки монтаж та підключення вашого обладнання • Працюємо без посередників</span>
+            </div>
+            <div class="hidden md:flex items-center gap-6 text-slate-500">
+                <span><i class="fa-solid fa-broom text-brand-600 mr-1.5"></i> Без бруду (пилосос з HEPA-фільтром)</span>
+                <span><i class="fa-solid fa-shield-check text-emerald-600 mr-1.5"></i> Гарантія на якість з'єднань</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- 1. NAVIGATION -->
+    <header class="bg-white/90 backdrop-blur-md sticky top-0 z-40 border-b border-slate-200/80">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 h-18 py-3.5 flex items-center justify-between">
+            
+            <a href="#" class="flex items-center gap-3">
+                <div class="w-10 h-10 rounded-xl bg-brand-50 border border-brand-100 flex items-center justify-center text-brand-600 font-bold text-xl">
+                    <i class="fa-solid fa-plug"></i>
+                </div>
+                <div>
+                    <span class="font-extrabold text-base sm:text-lg text-slate-900 leading-none block">МАЙСТЕР-ІНВЕРТОР</span>
+                    <span class="text-[11px] font-semibold text-slate-400 tracking-wide uppercase">Київ • Правий берег</span>
+                </div>
+            </a>
+
+            <div class="flex items-center gap-3">
+                <a href="#reviews" class="hidden sm:inline-flex text-xs font-bold text-slate-600 hover:text-brand-600 px-3 py-2 transition-colors">
+                    Відгуки клієнтів (4.9★)
+                </a>
+                <a href="https://t.me/your_telegram_bot" target="_blank" rel="noopener"
+                   class="px-4 py-2.5 bg-brand-600 hover:bg-brand-700 text-white rounded-xl font-bold text-xs sm:text-sm tracking-wide flex items-center gap-2 transition-all shadow-sm shadow-brand-500/20 active:scale-95">
+                    <i class="fa-brands fa-telegram text-base"></i>
+                    <span>Чат у Telegram</span>
+                </a>
+            </div>
+
+        </div>
+    </header>
+
+    <!-- 2. HERO SECTION -->
+    <section class="pt-10 pb-16 sm:pt-16 sm:pb-24 border-b border-slate-200 bg-gradient-to-b from-white via-white to-slate-50">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6">
+            
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                
+                <!-- Left Text Column -->
+                <div class="lg:col-span-7 text-center lg:text-left">
+                    
+                    <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-slate-100 border border-slate-200 text-slate-700 text-xs font-semibold mb-6">
+                        <span class="text-amber-500">★★★★★</span>
+                        <span>180+ безпечно підключених квартир</span>
+                    </div>
+
+                    <h1 class="text-3xl sm:text-5xl lg:text-6xl font-extrabold text-slate-900 tracking-tight leading-[1.12] mb-6">
+                        Вже купили інвертор? <br>
+                        <span class="text-brand-600">Підключимо до щитка</span> акуратно та без пилу.
+                    </h1>
+
+                    <p class="text-slate-600 text-base sm:text-lg leading-relaxed mb-8 max-w-xl mx-auto lg:mx-0">
+                        Ми <strong>не продаємо обладнання</strong>. Наше завдання — приїхати з професійним інструментом, перебрати щиток, змонтувати безпечний перемикач Hager і запустити систему без шкоди для вашого ремонту.
+                    </p>
+
+                    <!-- CTA Buttons -->
+                    <div class="flex flex-col sm:flex-row gap-3.5 justify-center lg:justify-start items-stretch sm:items-center mb-8">
+                        <a href="https://t.me/your_telegram_bot" target="_blank" rel="noopener"
+                           class="px-7 py-4 bg-brand-600 hover:bg-brand-700 text-white font-bold text-base rounded-2xl flex items-center justify-center gap-3 transition-all shadow-lg shadow-brand-500/25 active:scale-95">
+                            <i class="fa-brands fa-telegram text-xl"></i>
+                            <span>Скинути фото щитка в Telegram</span>
+                        </a>
+
+                        <a href="#prices" 
+                           class="px-6 py-4 bg-white hover:bg-slate-50 border border-slate-200 text-slate-700 font-bold text-base rounded-2xl flex items-center justify-center gap-2 transition-all shadow-sm">
+                            <span>Вартість робіт</span>
+                        </a>
+                    </div>
+
+                    <!-- Cleanliness Guarantee Flags -->
+                    <div class="grid grid-cols-2 sm:grid-cols-3 gap-3 text-xs font-semibold text-slate-500 text-left pt-2">
+                        <div class="flex items-center gap-2">
+                            <i class="fa-solid fa-circle-check text-emerald-500"></i>
+                            <span>Свердлимо з пилососом</span>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <i class="fa-solid fa-circle-check text-emerald-500"></i>
+                            <span>Байпас I-0-II в щиток</span>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <i class="fa-solid fa-circle-check text-emerald-500"></i>
+                            <span>Опресування 50мм² пресом</span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Right Card: Interactive Assurance Box -->
+                <div class="lg:col-span-5">
+                    <div class="bg-white p-6 sm:p-8 rounded-3xl border border-slate-200 shadow-xl shadow-slate-200/50 relative">
+                        
+                        <div class="flex items-center justify-between pb-4 border-b border-slate-100 mb-5">
+                            <span class="text-xs font-bold text-slate-400 uppercase tracking-wider">Формат нашого виїзду</span>
+                            <span class="text-xs font-bold text-emerald-600 bg-emerald-50 border border-emerald-100 px-2.5 py-1 rounded-full">
+                                Все включено
+                            </span>
+                        </div>
+
+                        <div class="space-y-4">
+                            <div class="flex items-start gap-3.5">
+                                <div class="w-9 h-9 rounded-xl bg-slate-100 text-slate-700 flex items-center justify-center shrink-0 font-bold text-sm">
+                                    1
+                                </div>
+                                <div>
+                                    <h4 class="text-sm font-bold text-slate-900">Бережемо ваш ремонт</h4>
+                                    <p class="text-xs text-slate-500 leading-normal mt-0.5">Використовуємо будівельний пилосос. Акуратні білі короби або протяжка в існуючих кабель-каналах.</p>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start gap-3.5">
+                                <div class="w-9 h-9 rounded-xl bg-slate-100 text-slate-700 flex items-center justify-center shrink-0 font-bold text-sm">
+                                    2
+                                </div>
+                                <div>
+                                    <h4 class="text-sm font-bold text-slate-900">Всі матеріали з собою</h4>
+                                    <p class="text-xs text-slate-500 leading-normal mt-0.5">Вам не потрібно шукати товстий силовий дріт, наконечники, кріплення чи рубильник — ми все привозимо в багажнику.</p>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start gap-3.5">
+                                <div class="w-9 h-9 rounded-xl bg-slate-100 text-slate-700 flex items-center justify-center shrink-0 font-bold text-sm">
+                                    3
+                                </div>
+                                <div>
+                                    <h4 class="text-sm font-bold text-slate-900">Тестування та інструктаж</h4>
+                                    <p class="text-xs text-slate-500 leading-normal mt-0.5">Імітуємо вимкнення світла при вас. Показуємо родині, як користуватися перемикачем в щитку за 5 секунд.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mt-6 pt-5 border-t border-slate-100 bg-slate-50 -mx-6 -mb-6 p-6 rounded-b-3xl">
+                            <div class="text-center">
+                                <p class="text-xs text-slate-600 mb-2 font-medium">Оцінка вартості за фото вашого щитка</p>
+                                <a href="https://t.me/your_telegram_bot" target="_blank" rel="noopener" class="text-brand-600 hover:text-brand-700 text-xs font-bold flex items-center justify-center gap-1.5">
+                                    <span>Написати інженеру в Telegram</span>
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- 3. REAL CUSTOMER REVIEWS (ОТЗЫВЫ КЛИЕНТОВ) -->
+    <section id="reviews" class="py-16 sm:py-24 max-w-6xl mx-auto px-4 sm:px-6">
+        
+        <div class="text-center max-w-2xl mx-auto mb-14">
+            <span class="text-xs font-extrabold text-brand-600 uppercase tracking-widest bg-brand-50 px-3 py-1 rounded-full border border-brand-100">
+                Репутація та довіра
+            </span>
+            <h2 class="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight mt-3 mb-3">
+                Що кажуть клієнти про наш монтаж
+            </h2>
+            <p class="text-slate-500 text-sm sm:text-base">
+                Реальні випадки підключення інверторів Deye, Victron, Must та LiFePO4 батарей у квартирах Києва.
+            </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            
+            <!-- Review 1 -->
+            <div class="bg-white p-6 rounded-3xl border border-slate-200/90 shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
+                <div>
+                    <div class="flex items-center justify-between mb-3">
+                        <div class="flex text-amber-400 text-xs">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        </div>
+                        <span class="text-[11px] font-semibold text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded-md">Підтверджений монтаж</span>
+                    </div>
+                    <p class="text-xs sm:text-sm text-slate-600 leading-relaxed mb-4">
+                        «Купив Deye 5kW та акумулятор на 5 кВт·год, але боявся підключати сам — у коридорі щойно зроблений ремонт, білі стіни. Хлопці приїхали зі своїм пилососом, просвердлили без жодної пилинки на плінтусах. В щиток поставили трипозиційний рубильник Hager. Все працює безшовно, макбук навіть не помічає вимкнення!»
+                    </p>
+                </div>
+                <div class="pt-4 border-t border-slate-100 flex items-center justify-between">
+                    <div>
+                        <div class="font-bold text-xs text-slate-900">Олексій М.</div>
+                        <div class="text-[11px] text-slate-400">ЖК «Французький квартал 2»</div>
+                    </div>
+                    <span class="text-[10px] font-mono text-slate-400">Deye 5kW + LiFePO4</span>
+                </div>
+            </div>
+
+            <!-- Review 2 -->
+            <div class="bg-white p-6 rounded-3xl border border-slate-200/90 shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
+                <div>
+                    <div class="flex items-center justify-between mb-3">
+                        <div class="flex text-amber-400 text-xs">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        </div>
+                        <span class="text-[11px] font-semibold text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded-md">Підтверджений монтаж</span>
+                    </div>
+                    <p class="text-xs sm:text-sm text-slate-600 leading-relaxed mb-4">
+                        «Головне було — щоб не згорів газовий котел (він фазозалежний) і щоб інвертор не вибивав ввідні автомати, коли вмикається духовка. Майстер грамотно виділив окремі лінії, а важку кухню залишив на прямій мережі. Привезли свої кабелі з правильним перетином. Дуже вдячна за порядність.»
+                    </p>
+                </div>
+                <div class="pt-4 border-t border-slate-100 flex items-center justify-between">
+                    <div>
+                        <div class="font-bold text-xs text-slate-900">Олена та Дмитро</div>
+                        <div class="text-[11px] text-slate-400">ЖК «Файна Таун»</div>
+                    </div>
+                    <span class="text-[10px] font-mono text-slate-400">Growatt 3.5kW</span>
+                </div>
+            </div>
+
+            <!-- Review 3 -->
+            <div class="bg-white p-6 rounded-3xl border border-slate-200/90 shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
+                <div>
+                    <div class="flex items-center justify-between mb-3">
+                        <div class="flex text-amber-400 text-xs">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        </div>
+                        <span class="text-[11px] font-semibold text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded-md">Підтверджений монтаж</span>
+                    </div>
+                    <p class="text-xs sm:text-sm text-slate-600 leading-relaxed mb-4">
+                        «Замовляв Victron Multiplus-II з Польщі. Місцеві електрики з ЖЕКу навіть не чули, як правильно його зв'язати з BMS через CAN-шину. Ці хлопці підключили все за 4 години, обтиснули клеми гідропресом і затягнули динамометричною викруткою за паспортом. Рівень інженерів, а не просто "майстрів на всі руки".»
+                    </p>
+                </div>
+                <div class="pt-4 border-t border-slate-100 flex items-center justify-between">
+                    <div>
+                        <div class="font-bold text-xs text-slate-900">Віталій С.</div>
+                        <div class="text-[11px] text-slate-400">ЖК «Новопечерські Липки»</div>
+                    </div>
+                    <span class="text-[10px] font-mono text-slate-400">Victron 5000VA</span>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- 4. TRANSPARENT WORK TIERS (ПРОЗОРА ВАРТІСТЬ РОБІТ) -->
+    <section id="prices" class="py-16 bg-white border-y border-slate-200">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6">
+            
+            <div class="max-w-2xl mb-12">
+                <span class="text-xs font-extrabold text-brand-600 uppercase tracking-widest bg-brand-50 px-3 py-1 rounded-full border border-brand-100">
+                    Чесні умови
+                </span>
+                <h2 class="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight mt-3">
+                    Скільки коштує підключення
+                </h2>
+                <p class="text-slate-500 text-sm mt-2">
+                    Без прихованих націнок. Фіксована ціна за роботу домовляється до початку робіт по фото щитка.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                
+                <!-- Package 1 -->
+                <div class="p-6 sm:p-7 rounded-3xl border border-slate-200 bg-[#F8FAFC] flex flex-col justify-between">
+                    <div>
+                        <h3 class="font-extrabold text-lg text-slate-900 mb-1">Базовий монтаж</h3>
+                        <p class="text-xs text-slate-500 mb-6">Коли інвертор встановлюється впритул до електрощитка</p>
+                        
+                        <ul class="space-y-3 text-xs text-slate-700 font-medium mb-8">
+                            <li class="flex items-center gap-2.5">
+                                <i class="fa-solid fa-check text-brand-600"></i>
+                                <span>Настінне кріплення інвертора</span>
+                            </li>
+                            <li class="flex items-center gap-2.5">
+                                <i class="fa-solid fa-check text-brand-600"></i>
+                                <span>Підключення акумулятора та BMS</span>
+                            </li>
+                            <li class="flex items-center gap-2.5">
+                                <i class="fa-solid fa-check text-brand-600"></i>
+                                <span>Опресування силових проводів</span>
+                            </li>
+                            <li class="flex items-center gap-2.5">
+                                <i class="fa-solid fa-check text-brand-600"></i>
+                                <span>Монтаж ручного байпасу (мережний рубильник)</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <a href="https://t.me/your_telegram_bot" target="_blank" rel="noopener"
+                       class="w-full py-3 bg-white hover:bg-slate-100 border border-slate-300 text-slate-800 rounded-xl font-bold text-xs uppercase tracking-wider text-center transition-colors">
+                        Дізнатись ціну під мій щиток
+                    </a>
+                </div>
+
+                <!-- Package 2 (Featured) -->
+                <div class="p-6 sm:p-7 rounded-3xl border-2 border-brand-600 bg-white shadow-xl shadow-brand-500/10 flex flex-col justify-between relative">
+                    <span class="absolute -top-3 right-6 bg-brand-600 text-white font-extrabold text-[10px] uppercase px-3 py-1 rounded-full tracking-wider">
+                        Найпопулярніший
+                    </span>
+                    <div>
+                        <h3 class="font-extrabold text-lg text-slate-900 mb-1">Комплекс «Під Ключ»</h3>
+                        <p class="text-xs text-slate-500 mb-6">Повний захист квартири з оптимізацією щита</p>
+                        
+                        <ul class="space-y-3 text-xs text-slate-700 font-medium mb-8">
+                            <li class="flex items-center gap-2.5">
+                                <i class="fa-solid fa-check text-emerald-600 font-bold"></i>
+                                <span><strong>Все з «Базового» пакету</strong></span>
+                            </li>
+                            <li class="flex items-center gap-2.5">
+                                <i class="fa-solid fa-check text-emerald-600 font-bold"></i>
+                                <span><strong>Переборка щитка:</strong> виділення важливих груп (котел, світло, розетки)</span>
+                            </li>
+                            <li class="flex items-center gap-2.5">
+                                <i class="fa-solid fa-check text-emerald-600 font-bold"></i>
+                                <span>Захист від перевантаження інвертора</span>
+                            </li>
+                            <li class="flex items-center gap-2.5">
+                                <i class="fa-solid fa-check text-emerald-600 font-bold"></i>
+                                <span>Всі витратні матеріали (наконечники, кріплення, гільзи) включені</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <a href="https://t.me/your_telegram_bot" target="_blank" rel="noopener"
+                       class="w-full py-3.5 bg-brand-600 hover:bg-brand-700 text-white rounded-xl font-bold text-xs uppercase tracking-wider text-center transition-colors shadow-md shadow-brand-500/20">
+                        Оцінити по фото щитка
+                    </a>
+                </div>
+
+                <!-- Package 3 -->
+                <div class="p-6 sm:p-7 rounded-3xl border border-slate-200 bg-[#F8FAFC] flex flex-col justify-between">
+                    <div>
+                        <h3 class="font-extrabold text-lg text-slate-900 mb-1">Дистанційний монтаж</h3>
+                        <p class="text-xs text-slate-500 mb-6">Коли обладнання на балконі або в коморі (траса 5-15м)</p>
+                        
+                        <ul class="space-y-3 text-xs text-slate-700 font-medium mb-8">
+                            <li class="flex items-center gap-2.5">
+                                <i class="fa-solid fa-check text-brand-600"></i>
+                                <span>Акуратна прокладка силової кабельної траси</span>
+                            </li>
+                            <li class="flex items-center gap-2.5">
+                                <i class="fa-solid fa-check text-brand-600"></i>
+                                <span>Монтаж кабель-каналів під колір стін/плінтусів</span>
+                            </li>
+                            <li class="flex items-center gap-2.5">
+                                <i class="fa-solid fa-check text-brand-600"></i>
+                                <span>Переборка щитка + автоматика байпасу</span>
+                            </li>
+                            <li class="flex items-center gap-2.5">
+                                <i class="fa-solid fa-check text-brand-600"></i>
+                                <span>Алмазне / чисте свердління перегородок</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <a href="https://t.me/your_telegram_bot" target="_blank" rel="noopener"
+                       class="w-full py-3 bg-white hover:bg-slate-100 border border-slate-300 text-slate-800 rounded-xl font-bold text-xs uppercase tracking-wider text-center transition-colors">
+                        Розрахувати довжину траси
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- 5. FAQ (ЧАСТІ ПИТАННЯ ВЛАСНИКІВ КВАРТИР) -->
+    <section class="py-16 sm:py-24 max-w-4xl mx-auto px-4 sm:px-6" x-data="{ openFaq: 1 }">
+        
+        <div class="text-center mb-12">
+            <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">
+                Відповіді на поширені питання
+            </h2>
+        </div>
+
+        <div class="space-y-3">
+            
+            <div class="bg-white border border-slate-200 rounded-2xl overflow-hidden">
+                <button @click="openFaq = (openFaq === 1 ? null : 1)" class="w-full p-5 text-left font-bold text-sm sm:text-base text-slate-900 flex items-center justify-between">
+                    <span>Чи вистачить місця в моєму щитку для байпасу?</span>
+                    <i class="fa-solid fa-chevron-down text-slate-400 transition-transform" :class="openFaq === 1 ? 'rotate-180' : ''"></i>
+                </button>
+                <div x-show="openFaq === 1" class="px-5 pb-5 text-xs sm:text-sm text-slate-600 leading-relaxed border-t border-slate-100 pt-3">
+                    Сучасні перемикачі Hager або IETA займають лише 1–2 модулі (як звичайний подвійний автомат). Якщо щиток повністю заповнений, ми замінюємо окремі автомати на компактні slim-моделі без втрати надійності, або акуратно встановлюємо міні-бокс поруч.
+                </div>
+            </div>
+
+            <div class="bg-white border border-slate-200 rounded-2xl overflow-hidden">
+                <button @click="openFaq = (openFaq === 2 ? null : 2)" class="w-full p-5 text-left font-bold text-sm sm:text-base text-slate-900 flex items-center justify-between">
+                    <span>Що станеться, якщо інвертор вийде з ладу або поїде на сервіс?</span>
+                    <i class="fa-solid fa-chevron-down text-slate-400 transition-transform" :class="openFaq === 2 ? 'rotate-180' : ''"></i>
+                </button>
+                <div x-show="openFaq === 2" class="px-5 pb-5 text-xs sm:text-sm text-slate-600 leading-relaxed border-t border-slate-100 pt-3">
+                    Саме для цього ми ставимо перемикач «I-0-II». Ви перемикаєте важіль у положення «Мережа» — і вся квартира живе напряму від міста, ніби інвертора ніколи й не було. Його можна спокійно зняти зі стіни.
+                </div>
+            </div>
+
+            <div class="bg-white border border-slate-200 rounded-2xl overflow-hidden">
+                <button @click="openFaq = (openFaq === 3 ? null : 3)" class="w-full p-5 text-left font-bold text-sm sm:text-base text-slate-900 flex items-center justify-between">
+                    <span>Які райони Правого берега ви обслуговуєте?</span>
+                    <i class="fa-solid fa-chevron-down text-slate-400 transition-transform" :class="openFaq === 3 ? 'rotate-180' : ''"></i>
+                </button>
+                <div x-show="openFaq === 3" class="px-5 pb-5 text-xs sm:text-sm text-slate-600 leading-relaxed border-t border-slate-100 pt-3">
+                    Печерськ, Поділ, Голосіїво, Солом'янка, Шевченківський, Святошин, а також ближні передмістя (Софіївська/Петропавлівська Борщагівка, Вишневе, Чайки).
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- 6. FINAL CALL TO ACTION -->
+    <section class="py-16 sm:py-20 bg-brand-900 text-white relative overflow-hidden">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 text-center relative z-10">
+            
+            <span class="inline-block px-3 py-1 bg-white/10 text-brand-100 rounded-full text-xs font-semibold uppercase tracking-wider mb-4">
+                Швидка оцінка без дзвінків
+            </span>
+
+            <h2 class="text-2xl sm:text-4xl font-extrabold tracking-tight mb-4">
+                Дізнайтеся точну вартість підключення вашої техніки
+            </h2>
+
+            <p class="text-brand-100 text-sm sm:text-base max-w-xl mx-auto mb-8 leading-relaxed">
+                Сфотографуйте електрощиток та модель інвертора, яку придбали. Інженер подивиться вільне місце та відповість у Telegram за 15 хвилин.
+            </p>
+
+            <a href="https://t.me/your_telegram_bot" target="_blank" rel="noopener"
+               class="inline-flex items-center justify-center gap-3 px-8 py-4 bg-white hover:bg-slate-100 text-brand-900 font-bold text-base rounded-2xl transition-all shadow-xl active:scale-95">
+                <i class="fa-brands fa-telegram text-2xl text-tg"></i>
+                <span>Надіслати фото в Telegram</span>
+            </a>
+
+        </div>
+    </section>
+
+    <!-- 7. FOOTER -->
+    <footer class="bg-white border-t border-slate-200 py-8 text-xs text-slate-500">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-center sm:text-left">
+            <div>
+                © 2024–2025 Підключення резервного живлення в квартирах. Київ (Правий берег).
+            </div>
+            <div class="text-slate-400">
+                Працюємо без вихідних з 9:00 до 20:00
+            </div>
+        </div>
+    </footer>
+
+    <!-- 8. PERSISTENT MOBILE FLOATING BAR (SM:HIDDEN) -->
+    <div class="fixed bottom-0 left-0 right-0 z-50 p-3 bg-white/95 border-t border-slate-200 backdrop-blur-md sm:hidden shadow-lg">
+        <a href="https://t.me/your_telegram_bot" target="_blank" rel="noopener"
+           class="w-full py-3.5 bg-brand-600 active:bg-brand-700 text-white font-bold text-sm rounded-xl flex items-center justify-center gap-2 shadow-md shadow-brand-500/20">
+            <i class="fa-brands fa-telegram text-lg"></i>
+            <span>Оцінити по фото в Telegram</span>
+        </a>
+    </div>
+
+</body>
+</html>

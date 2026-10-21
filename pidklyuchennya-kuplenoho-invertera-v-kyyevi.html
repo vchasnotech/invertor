@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="uk" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Підключення купленого інвертора в Києві | Швидко, без черг, за чесну ціну</title>
+    <meta name="description" content="Монтаж та підключення вашого інвертора (Must, PowMr, Deye, EASUN) до щитка у квартирі. Виїзд на Правий берег Києва сьогодні-завтра. Фіксована ціна за фото.">
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+
+    <!-- TAILWIND CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        dark: {
+                            950: '#0A0E17',
+                            900: '#111726',
+                            850: '#172033',
+                            800: '#1E293B',
+                            border: 'rgba(255, 255, 255, 0.08)',
+                        },
+                        amber: {
+                            energy: '#FACC15', // Надійний зрозумілий жовтий
+                            energyHover: '#EAB308',
+                        },
+                        tg: '#229ED9',
+                        tgHover: '#1B87BA'
+                    },
+                    fontFamily: {
+                        sans: ['Plus Jakarta Sans', 'sans-serif'],
+                        heading: ['Space Grotesk', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- FONT AWESOME ICONS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- ALPINE.JS -->
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+
+    <style>
+        .work-card {
+            background: #111726;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 20px;
+            transition: transform 0.2s ease, border-color 0.2s ease;
+        }
+        .work-card:hover {
+            border-color: rgba(250, 204, 21, 0.3);
+        }
+        .pulse-yellow {
+            animation: pulse-y 2s infinite;
+        }
+        @keyframes pulse-y {
+            0% { box-shadow: 0 0 0 0 rgba(250, 204, 21, 0.5); }
+            70% { box-shadow: 0 0 0 10px rgba(250, 204, 21, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(250, 204, 21, 0); }
+        }
+    </style>
+</head>
+<body class="bg-dark-950 text-slate-200 font-sans antialiased selection:bg-amber-energy selection:text-black">
+
+    <!-- 1. ВЕРХНІЙ СТАТУС-РЯДОК -->
+    <div class="bg-dark-900 border-b border-dark-border py-2 px-4 text-xs">
+        <div class="max-w-6xl mx-auto flex items-center justify-between">
+            <div class="flex items-center gap-2">
+                <span class="w-2.5 h-2.5 rounded-full bg-emerald-400 animate-pulse"></span>
+                <span class="text-slate-300 font-medium">Правий берег Києва: є вільний інженер на завтра</span>
+            </div>
+            <div class="hidden sm:flex items-center gap-3 text-slate-400">
+                <span>Без черг на місяць вперед</span>
+                <span>•</span>
+                <span>Фіксована ціна по фото</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- 2. ШАПКА САЙТУ -->
+    <header class="sticky top-0 z-40 bg-dark-950/90 backdrop-blur-md border-b border-dark-border">
+        <div class="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
+            
+            <div class="flex items-center gap-3">
+                <div class="w-9 h-9 rounded-lg bg-amber-energy text-black flex items-center justify-center font-heading font-bold text-lg">
+                    ⚡
+                </div>
+                <div>
+                    <span class="font-heading font-bold text-base sm:text-lg text-white block leading-none">РЕЗЕРВ-СЕРВІС</span>
+                    <span class="text-[10px] text-slate-400 font-medium">Тільки монтаж • Без продажу техніки</span>
+                </div>
+            </div>
+
+            <!-- Швидкий перехід у Telegram -->
+            <a href="https://t.me/your_telegram_bot" target="_blank" rel="noopener"
+               class="px-4 py-2 bg-amber-energy hover:bg-amber-energyHover text-black font-heading font-bold text-xs uppercase tracking-wider rounded-lg flex items-center gap-2 transition-all active:scale-95 shadow-sm">
+                <i class="fa-brands fa-telegram text-sm"></i>
+                <span class="hidden sm:inline">Скинути фото щитка</span>
+                <span class="sm:hidden">В Telegram</span>
+            </a>
+
+        </div>
+    </header>
+
+    <!-- 3. ГОЛОВНИЙ ЕКРАН (HERO) -->
+    <section class="pt-10 pb-10 sm:pt-16 sm:pb-14 px-4 max-w-5xl mx-auto text-center">
+        
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-dark-900 border border-dark-border text-amber-energy text-xs font-semibold mb-4">
+            <i class="fa-solid fa-wrench"></i>
+            <span>Послуга кваліфікованого електрика</span>
+        </div>
+
+        <h1 class="font-heading text-3xl sm:text-5xl lg:text-6xl font-bold text-white uppercase tracking-tight leading-[1.12] mb-5">
+            Купили інвертор, а черги на місяць? <br class="hidden sm:block">
+            <span class="text-amber-energy">Підключимо завтра за нормальні гроші.</span>
+        </h1>
+
+        <p class="text-slate-300 text-base sm:text-lg max-w-2xl mx-auto leading-relaxed mb-8">
+            Ви самі замовили техніку та зекономили — це правильно. Тепер ми безпечно заведемо її в електрощиток квартири. Без «космічних» цін, без переплат і без пилу на стінах.
+        </p>
+
+        <!-- Головна кнопка дії -->
+        <div class="max-w-md mx-auto mb-8">
+            <a href="https://t.me/your_telegram_bot" target="_blank" rel="noopener"
+               class="w-full py-4 bg-amber-energy hover:bg-amber-energyHover text-black font-heading font-bold text-base uppercase tracking-wider rounded-xl flex items-center justify-center gap-2.5 transition-all shadow-lg active:scale-95">
+                <i class="fa-brands fa-telegram text-xl"></i>
+                <span>Дізнатися вартість робіт за 10 хв</span>
+            </a>
+            <div class="text-[11px] text-slate-400 mt-2">
+                Скидаєте фото щитка → пишемо точну ціну → домовляємося про день.
+            </div>
+        </div>
+
+        <!-- 3 фактори довіри для звичайних людей -->
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 text-xs text-slate-300 max-w-3xl mx-auto text-left sm:text-center">
+            <div class="flex items-center sm:justify-center gap-2 p-3 bg-dark-900 rounded-xl border border-dark-border">
+                <i class="fa-solid fa-circle-check text-emerald-400"></i>
+                <span>Ціна не змінюється під час робіт</span>
+            </div>
+            <div class="flex items-center sm:justify-center gap-2 p-3 bg-dark-900 rounded-xl border border-dark-border">
+                <i class="fa-solid fa-circle-check text-emerald-400"></i>
+                <span>Всі дроти та перемикачі з собою</span>
+            </div>
+            <div class="flex items-center sm:justify-center gap-2 p-3 bg-dark-900 rounded-xl border border-dark-border">
+                <i class="fa-solid fa-circle-check text-emerald-400"></i>
+                <span>Підключаємо Must, PowMr, Deye</span>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- 4. ЦЕНТРАЛЬНЕ ФОТО: ОХАЙНИЙ МАЙСТЕР У ФІРМОВОМУ ОДЯЗІ ЗА РОБОТОЮ -->
+    <section class="max-w-5xl mx-auto px-4 mb-14" x-data="{ spot: 1 }">
+        <div class="bg-dark-900 border border-dark-border p-3 sm:p-5 rounded-2xl shadow-xl">
+            
+            <div class="relative rounded-xl overflow-hidden aspect-[4/3] sm:aspect-[16/9] bg-dark-950 border border-dark-border">
+                
+                <!-- ФОТО (Замініть src на згенероване зображення за промптом внизу) -->
+                <img src="img3.jpg" 
+                     alt="Майстер у фірмовій футболці підключає інвертор у квартирі" 
+                     class="w-full h-full object-cover object-center filter brightness-[0.92]">
+
+                <!-- Градієнтне затемнення знизу -->
+                <div class="absolute inset-0 bg-gradient-to-t from-dark-950 via-transparent to-dark-950/20"></div>
+
+                <!-- МІТКА 1: МАЙСТЕР У ФОРМІ -->
+                <div class="absolute top-[32%] left-[28%] -translate-x-1/2 -translate-y-1/2">
+                    <button @click="spot = 1" class="w-8 h-8 rounded-full bg-amber-energy text-black font-bold text-xs flex items-center justify-center pulse-yellow shadow-lg hover:scale-110 transition-transform">
+                        1
+                    </button>
+                    <div x-show="spot === 1" x-transition class="absolute left-10 -top-2 w-56 sm:w-64 p-3 bg-dark-950/95 border border-dark-border rounded-xl text-left text-xs z-30 shadow-2xl">
+                        <div class="font-heading font-bold text-amber-energy uppercase">Охайний майстер у формі</div>
+                        <p class="text-slate-300 text-[11px] mt-1 leading-snug">Приїжджаємо тверезі, у чистому змінному взутті, зі своїм будівельним пилососом.</p>
+                    </div>
+                </div>
+
+                <!-- МІТКА 2: ДОСТУПНИЙ КИТАЙСЬКИЙ АБО БРЕНДОВИЙ ІНВЕРТОР -->
+                <div class="absolute top-[38%] left-[68%] -translate-x-1/2 -translate-y-1/2">
+                    <button @click="spot = 2" class="w-8 h-8 rounded-full bg-amber-energy text-black font-bold text-xs flex items-center justify-center pulse-yellow shadow-lg hover:scale-110 transition-transform">
+                        2
+                    </button>
+                    <div x-show="spot === 2" x-transition class="absolute right-10 -top-2 w-56 sm:w-64 p-3 bg-dark-950/95 border border-dark-border rounded-xl text-left text-xs z-30 shadow-2xl">
+                        <div class="font-heading font-bold text-amber-energy uppercase">Будь-який ваш інвертор</div>
+                        <p class="text-slate-300 text-[11px] mt-1 leading-snug">Підключаємо і народні Must / PowMr / EASUN, і Deye. Не вимагаємо купувати дороге залізо у нас.</p>
+                    </div>
+                </div>
+
+                <!-- МІТКА 3: БАЙПАС У ЩИТКУ -->
+                <div class="absolute bottom-[24%] left-[48%] -translate-x-1/2 -translate-y-1/2">
+                    <button @click="spot = 3" class="w-8 h-8 rounded-full bg-amber-energy text-black font-bold text-xs flex items-center justify-center pulse-yellow shadow-lg hover:scale-110 transition-transform">
+                        3
+                    </button>
+                    <div x-show="spot === 3" x-transition class="absolute bottom-10 left-1/2 -translate-x-1/2 w-60 sm:w-72 p-3 bg-dark-950/95 border border-dark-border rounded-xl text-left text-xs z-30 shadow-2xl">
+                        <div class="font-heading font-bold text-amber-energy uppercase">Простий ручний перемикач</div>
+                        <p class="text-slate-300 text-[11px] mt-1 leading-snug">Ставимо рубильник «Мережа-0-Інвертор». Будь-хто в родині зможе перемкнути одним клацанням.</p>
+                    </div>
+                </div>
+
+                <!-- Нижня плашка всередині фото -->
+                <div class="absolute bottom-3 left-3 right-3 sm:bottom-4 sm:left-4 sm:right-4 flex flex-col sm:flex-row sm:items-center justify-between gap-2 bg-dark-900/90 backdrop-blur-md p-3.5 rounded-xl border border-dark-border text-xs">
+                    <div class="flex items-center gap-2">
+                        <i class="fa-solid fa-clock text-amber-energy"></i>
+                        <span>Середній час роботи майстра: <strong>3–4 години</strong> під ключ</span>
+                    </div>
+                    <span class="text-slate-400 text-[11px]">Правий берег: Печерськ, Солом'янка, Голосіїв, Поділ, Святошин</span>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- 5. 3 ГОЛОВНІ РЕЧІ, ЯКІ ЦІНУЮТЬ ЛЮДИ СЕРЕДНЬОГО КЛАСУ -->
+    <section class="max-w-5xl mx-auto px-4 py-8">
+        
+        <div class="text-center max-w-xl mx-auto mb-8">
+            <h2 class="font-heading text-2xl sm:text-3xl font-bold uppercase text-white">
+                Чому з нами простіше й вигідніше
+            </h2>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+            
+            <div class="work-card p-6">
+                <div class="w-10 h-10 rounded-lg bg-dark-800 text-amber-energy flex items-center justify-center text-lg mb-4">
+                    <i class="fa-solid fa-hand-holding-dollar"></i>
+                </div>
+                <h3 class="font-heading text-base font-bold text-white uppercase mb-2">Адекватні, чесні ціни</h3>
+                <p class="text-xs text-slate-300 leading-relaxed">
+                    Ми не вигадуємо «коефіцієнт складності» на місці. Ви надсилаєте фото щитка — ми озвучуємо реальну ціну за роботу. Скільки назвали, стільки ви й платите майстру в руки.
+                </p>
+            </div>
+
+            <div class="work-card p-6">
+                <div class="w-10 h-10 rounded-lg bg-dark-800 text-amber-energy flex items-center justify-center text-lg mb-4">
+                    <i class="fa-solid fa-bolt-lightning"></i>
+                </div>
+                <h3 class="font-heading text-base font-bold text-white uppercase mb-2">Без черг на тижні</h3>
+                <p class="text-xs text-slate-300 leading-relaxed">
+                    Вам не потрібно сидіти в темряві місяць, поки «звільниться велика бригада». У нас мобільні майстри на авто, які виїжджають по Правому берегу вже на наступний день після дзвінка.
+                </p>
+            </div>
+
+            <div class="work-card p-6">
+                <div class="w-10 h-10 rounded-lg bg-dark-800 text-amber-energy flex items-center justify-center text-lg mb-4">
+                    <i class="fa-solid fa-toolbox"></i>
+                </div>
+                <h3 class="font-heading text-base font-bold text-white uppercase mb-2">Всі витратні матеріали з собою</h3>
+                <p class="text-xs text-slate-300 leading-relaxed">
+                    Вам не треба шукати в інтернеті, якої товщини має бути провід або які клеми купити. Майстер привозить якісні мідні кабелі, наконечники, автоматику та кріплення.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- 6. ЯКІ МОДЕЛІ МИ ПІДКЛЮЧАЄМО -->
+    <section class="max-w-5xl mx-auto px-4 py-8">
+        <div class="work-card p-6 sm:p-8">
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6">
+                <div>
+                    <h3 class="font-heading text-lg font-bold text-white uppercase">
+                        Підключаємо будь-які інвертори, які ви дістали
+                    </h3>
+                    <p class="text-xs text-slate-400 mt-0.5">Куплені в Польщі, замовлені на AliExpress або знайдені на OLX:</p>
+                </div>
+                <span class="px-3 py-1 rounded bg-amber-energy/10 text-amber-energy text-xs font-heading font-bold border border-amber-energy/20 self-start sm:self-auto">
+                    100% сумісність
+                </span>
+            </div>
+
+            <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 text-xs font-heading font-semibold text-center">
+                <div class="p-3 bg-dark-950 border border-dark-border rounded-lg text-slate-200">Must (1–5 кВт)</div>
+                <div class="p-3 bg-dark-950 border border-dark-border rounded-lg text-slate-200">PowMr / EASUN</div>
+                <div class="p-3 bg-dark-950 border border-dark-border rounded-lg text-slate-200">Deye (3.6 / 5 / 6 кВт)</div>
+                <div class="p-3 bg-dark-950 border border-dark-border rounded-lg text-slate-200">Growatt / Axioma</div>
+            </div>
+
+            <div class="mt-4 p-3 bg-dark-950/70 border border-dark-border rounded-lg text-xs text-slate-300 flex items-center gap-2">
+                <i class="fa-solid fa-car-battery text-amber-energy text-sm"></i>
+                <span><strong>Акумулятори:</strong> Фабричні LiFePO4 блоки або самозбірні батареї на осередках EVE з платами BMS (JK, Daly). Налаштовуємо струми заряду, щоб акумулятор служив роками.</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. ВІДГУКИ ЗВИЧАЙНИХ ЛЮДЕЙ (РЕАЛЬНІ КВАРТИРИ КИЄВА) -->
+    <section class="max-w-5xl mx-auto px-4 py-8">
+        
+        <div class="text-center max-w-xl mx-auto mb-8">
+            <h2 class="font-heading text-xl sm:text-2xl font-bold uppercase text-white">
+                Відгуки киян, яким ми вже підключили світло
+            </h2>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+            
+            <div class="work-card p-5 flex flex-col justify-between">
+                <div>
+                    <div class="text-xs text-amber-energy mb-2">★★★★★</div>
+                    <p class="text-xs text-slate-300 leading-relaxed mb-4">
+                        «Купив недорогий Must на 3 кВт і збірку з OLX на 100Ah. Інші електрики заломили за монтаж більше, ніж коштував сам інвертор, ще й сказали чекати до кінця місяця. Тут майстер відповів у ТГ за 5 хвилин, на наступний день приїхав і до обіду все зробив. Холодильник і комп'ютер працюють без перебоїв!»
+                    </p>
+                </div>
+                <div class="pt-3 border-t border-dark-border flex items-center justify-between text-xs">
+                    <span class="font-bold text-white">Олександр В.</span>
+                    <span class="text-slate-500">Солом'янка • Must 3kW</span>
+                </div>
+            </div>
+
+            <div class="work-card p-5 flex flex-col justify-between">
+                <div>
+                    <div class="text-xs text-amber-energy mb-2">★★★★★</div>
+                    <p class="text-xs text-slate-300 leading-relaxed mb-4">
+                        «Боялася, що рознесуть весь коридор, бо в нас зроблений ремонт. Майстер прийшов у чистій формі, зі своїм змінним взуттям та пилососом. Акуратно повісив інвертор, у щитку поставив перемикач і на пальцях пояснив, яку кнопку клацати, якщо зникне світло. Дуже людяне ставлення.»
+                    </p>
+                </div>
+                <div class="pt-3 border-t border-dark-border flex items-center justify-between text-xs">
+                    <span class="font-bold text-white">Тетяна</span>
+                    <span class="text-slate-500">Голосіїво • Deye 5kW</span>
+                </div>
+            </div>
+
+            <div class="work-card p-5 flex flex-col justify-between">
+                <div>
+                    <div class="text-xs text-amber-energy mb-2">★★★★★</div>
+                    <p class="text-xs text-slate-300 leading-relaxed mb-4">
+                        «Притягнув PowMr з Польщі. Сам не хотів лізти в 220 вольт, бо боявся спалити техніку. Скинув фото щитка в телеграм — через 15 хвилин мені розписали вартість робіт і скільки піде кабелю. Все чітко, опресували товсті клеми пресом, а не плоскогубцями. Рекомендую.»
+                    </p>
+                </div>
+                <div class="pt-3 border-t border-dark-border flex items-center justify-between text-xs">
+                    <span class="font-bold text-white">Василь Іванович</span>
+                    <span class="text-slate-500">Святошин • PowMr 3.2kW</span>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- 8. ФІНАЛЬНИЙ БЛОК ЗАКЛИКУ ДО ДІЇ -->
+    <section class="max-w-5xl mx-auto px-4 py-12">
+        <div class="bg-gradient-to-b from-dark-900 to-dark-850 border border-amber-energy/30 p-6 sm:p-12 rounded-2xl text-center">
+            
+            <h2 class="font-heading text-2xl sm:text-4xl font-bold uppercase text-white mb-3">
+                Дізнайтеся точну вартість підключення
+            </h2>
+            <p class="text-slate-300 text-sm max-w-xl mx-auto mb-6">
+                Зробіть 1 фото відкритого щитка на телефон та надішліть нам у Telegram. Майстер подивиться автомати й за 10 хвилин напише фіксовану вартість робіт.
+            </p>
+
+            <a href="https://t.me/your_telegram_bot" target="_blank" rel="noopener"
+               class="inline-flex items-center gap-3 px-8 py-4 bg-amber-energy hover:bg-amber-energyHover text-black font-heading font-bold text-base uppercase tracking-wider rounded-xl transition-all shadow-lg active:scale-95">
+                <i class="fa-brands fa-telegram text-2xl"></i>
+                <span>Надіслати фото щитка в Telegram</span>
+            </a>
+
+            <div class="mt-4 text-xs text-slate-400">
+                Без спаму та нав'язливих дзвінків. Відповідаємо відразу в чаті.
+            </div>
+
+        </div>
+    </section>
+
+    <!-- 9. ПІДВАЛ -->
+    <footer class="border-t border-dark-border py-6 text-xs text-slate-500 text-center">
+        <div class="max-w-6xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-3">
+            <div>© 2025. Підключення інверторів та акумуляторів у квартирах Києва.</div>
+            <div>Правий берег • Працюємо щодня з 8:30 до 20:30</div>
+        </div>
+    </footer>
+
+    <!-- 10. ФІКСОВАНА КНОПКА ДЛЯ ТЕЛЕФОНІВ (SM:HIDDEN) -->
+    <div class="fixed bottom-0 left-0 right-0 z-50 p-3 bg-dark-950/95 border-t border-dark-border backdrop-blur-md sm:hidden">
+        <a href="https://t.me/your_telegram_bot" target="_blank" rel="noopener"
+           class="w-full py-3.5 bg-amber-energy active:bg-amber-energyHover text-black font-heading font-bold text-sm uppercase tracking-wider rounded-xl flex items-center justify-center gap-2 shadow-lg">
+            <i class="fa-brands fa-telegram text-lg"></i>
+            <span>Дізнатись ціну за фото в Telegram</span>
+        </a>
+    </div>
+
+</body>
+</html>
